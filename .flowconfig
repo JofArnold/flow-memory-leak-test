@@ -1,0 +1,5 @@
+[include]
+./project/src/shared
+
+[options]
+module.name_mapper='^\@project\/\(.*\)$' -> '<PROJECT_ROOT>/project/src/shared/\1'

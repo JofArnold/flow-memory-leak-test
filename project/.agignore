@@ -1,0 +1,5 @@
+/dist
+/dist-server
+/public/images
+/public/fonts
+package-lock.json
