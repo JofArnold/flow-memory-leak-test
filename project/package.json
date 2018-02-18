@@ -44,7 +44,6 @@
     "react-transition-group": "^2.2.1",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "shared-lib": "file:../shared-lib",
     "webpack-dev-server": "^2.9.7",
     "window-or-global": "^1.0.1"
   },
@@ -122,4 +121,7 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
     ],
     "moduleNameMapper": {
-      "^@project/(.+)": "<rootDir>/src/shared/$
+      "^@project/(.+)": "<rootDir>/src/shared/$"
+    }
+  }
+}
