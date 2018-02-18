@@ -25,4 +25,4 @@ Flow will hang on 4/5 with 100% CPU and will continue to increase in memory usag
 
 ### Additional notes
 
-UPDATE: Also happens with `/project/node_modules//.bin/flow`
+UPDATE: Also happens with `./project/node_modules//.bin/flow`
